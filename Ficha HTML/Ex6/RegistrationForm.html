@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario!</title>
+</head>
+<body>
+<h1>Formulario!!</h1>
+<form>
+    User name: <input type="text" label="User name:" name="username" id="username">
+    <br>
+    Password:  <input type="password" label="User name" name="pw" id="pw">
+    <br>
+    <hidden id="emailMe" name="emailMe"></hidden>
+    Gender: 
+    <input type="radio" name="gender" value="m" id="genderM"> Male
+    <input type="radio" name="gender" value="f" id="genderF"> Female
+    <br>
+    Click to accept our terms: <input type="checkbox" name="terms" id="terms">
+    <br>
+    Where did you hear about us? 
+    <select name="referral" id="referral">
+        <option value="0">Please choose! :)</option>
+        <option value="wom">World Of Mouth</option>
+    <optgroup label="Search Engine">
+        <option value="Google">Google</option>
+        <option value="Yahoo!">Yahoo!</option>
+        <option value="MSN">MSN</option>
+        </optgroup>
+    </select>
+    <br>
+    Comments:
+    <br>
+    <textarea name="comments" row="10" cols="30" id="comments"></textarea>
+    <br>
+    <input type="submit" name="Register" value="Register"><input type="submit" value="Reset">
+    
+
+</form>
+</body>
+</html>
