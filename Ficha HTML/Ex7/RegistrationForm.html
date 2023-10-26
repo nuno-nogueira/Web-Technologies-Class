@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,4 +36,43 @@
 </form>
 </div>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+<h1><b>Registration Form</b></h1>
+<form method="RegistrationForm.html" method="post">
+    <fieldset>
+        <legend>Personal Info</legend>
+        <label>Name - </label>
+        <input type="text" label="Name" required pattern="”[A-Z][a-z]+\s[A-Z][a-z]+" title="Precisa de ter pelo menos uma letra minuscula e uma letra maiscula"> <br>
+        <label>Membership - </label>
+        Member <input type="radio" name="membership" value="member">
+        Non-member <input type="radio" name="membership" value="non-member"> <br>
+        Email - <input type="email" label="Email">
+    </fieldset>
+    <fieldset>
+        <legend>Reservantion Info</legend>
+        <label>Facility</label>
+        <select name="facility">
+            <option value="badminton">Badminton</option>
+            <option value="squash">Squash</option>
+            <option value="racquetball">Racquetball</option>
+        </select>
+        <br>
+        <label>Select a reservation date and time -</label>
+        <input type="datetime-local" name="reservationDate"> <br>
+        <input type="checkbox"> 
+        <label>I agree to the club’s reservation policy</label>
+    </fieldset>
+    <input type="submit" value="Submit"> 
+</form>
+</div>
+</body>
+>>>>>>> 3643bbb3960de4e0e6037cc6c8c636dc38fb69b8
 </html>
