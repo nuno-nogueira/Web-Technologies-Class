@@ -1,0 +1,12 @@
+.link{
+    background-color: lightblue;
+    width:10%
+    
+}
+.link:hover {
+    background-color: yellow;
+}
+
+.link:checked {
+    background-color: red;
+}

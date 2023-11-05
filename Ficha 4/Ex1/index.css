@@ -1,0 +1,30 @@
+#container {
+    width: 960px
+    margin=0
+    margin=auto
+}
+
+#text-paragraphs {
+    text-justify: auto;
+}
+
+.bg-black{
+    background-color: #000000;
+    text-align: center;
+    color: #ffffff;
+}
+.odd{
+    color:#ff0000;
+}
+.even{
+    color: #0000ff;
+}
+th{
+    background-color: #000000;
+    content: #ff0000;
+}
+td{
+    background-color: #5370C3;
+    content:#ffffff;
+    text-align: right;
+}
