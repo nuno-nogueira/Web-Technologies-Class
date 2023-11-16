@@ -1,0 +1,56 @@
+body{
+    font-family:'Inter', sans-serif;
+    background-color: #F3F9FD;
+    color: black;
+    font-size: 18px;
+    letter-spacing: -0.1px;
+    line-height: 26px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    max-width: 1440px;
+    padding: 20px 54px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+img{
+    width: 177px;
+}
+
+input{
+    font-size: 18px;
+    letter-spacing: -0.1px;
+    line-height: 26px;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 14px;
+    background-color:  #FFFFFF;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    
+}
+
+.contacts{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+#blue-button{
+    background-color:#6743F7;
+    color: white;
+}
+

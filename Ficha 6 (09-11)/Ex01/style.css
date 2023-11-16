@@ -1,0 +1,22 @@
+body{
+    background-color: #000000;
+}
+.flex-container{
+    padding: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.image1{
+    width: 300px;
+}
+
+.image2{
+    width: 300px;
+}
+
+.image3{
+    width: 300px;
+}

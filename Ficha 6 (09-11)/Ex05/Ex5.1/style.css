@@ -1,0 +1,52 @@
+body{
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 36px 16px;
+    background-color: white;
+}
+
+.logo{
+    display: flex;
+    align-items: flex-start;
+}
+
+img{
+    max-width: 130px;
+}
+
+.buttons{
+    display: flex;
+    align-items: flex-end;
+    gap: 52px;
+    margin-right: 100px;
+    
+}
+
+input{
+    font-size: 16px;
+    font-weight: medium;
+    line-height: 130%;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px 25px;
+    border-radius: 100px;
+    border: none;
+    color: black;
+    background-color: white;
+}
+
+#yellow-font{
+    color: #FB9300;
+}
+
+#yellow-button{
+    background-color: #FB9300;
+    color: white;
+}
