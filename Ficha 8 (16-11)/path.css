@@ -1,0 +1,6 @@
+@media only screen and (max-width:768px){
+    .articles{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

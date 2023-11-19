@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+section{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    padding: 80px;
+    grid-template-rows: 1fr 1fr;
+    gap: 60px;
+
+}

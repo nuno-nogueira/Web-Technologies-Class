@@ -1,0 +1,39 @@
+body{
+    background-color: white;
+    color: black;
+    font-family: 'Inter', sans-serif;
+}
+
+section{
+    padding: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+img{
+    width: 295px;
+    border-radius: 20px;
+}
+
+h5{
+    margin-top: 16px;
+    margin-bottom: 6px;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+
+h4{
+    font-size: 24px;
+    margin: 0;
+    font-weight: 400;
+}
+
+img:hover ~ h4{
+    color: #3563E9;
+}
+
+h4{
+    transition: color 1s ease;
+}

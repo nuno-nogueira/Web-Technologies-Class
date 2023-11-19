@@ -1,0 +1,72 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#main {
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+}
+
+header{
+    font-size: 2vh;
+    padding: 20vh;
+    background-color: lightblue
+}
+
+#main{
+    display: flex;
+    flex-direction: row;
+    padding: 20vh;
+}
+
+article{
+    display: flex;
+    background-color: rgb(206, 151, 243);
+    padding: 0vh 20vw;
+}
+
+nav{
+    display: flex;
+    background-color: white;
+    padding: 20vh 40vw;
+}
+
+aside{
+    display: flex;
+    background-color: rgb(87, 230, 74)yellow;
+    padding: 20vh 20vw;
+}
+
+#main>nav,
+#main>aside {
+    flex-basis: 20vw;
+}
+
+#main>nav {
+    background: lightgray;
+}
+
+#main>aside {
+    background: lightgreen;
+}
+
+header,
+footer {
+    background: lightblue;
+    height: 20vh;
+}
+
+header,
+footer,
+article,
+nav,
+aside {
+    padding: 1em;
+}
