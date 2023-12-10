@@ -16,7 +16,7 @@ body{
 
 .page-topic-title{
     font-size: 64px;
-    font-weight: extrabold;
+    font-weight: bolder;
     color: #242331;
     text-align: center;
     margin-bottom: 24px;
@@ -26,7 +26,7 @@ body{
 .page-topic-info{
     margin-top: 10px;
     margin-bottom: 10px;
-    font-weight: extrabold;
+    font-weight: bolder;
     max-width: 606px;
     text-align: center;
     font-size: 24px;
@@ -68,7 +68,7 @@ section{
 .article-1-title,.article-2-title,.article-3-title,.article-4-title{
     font-size: 24px;
     color: #242331;
-    font-weight: extrabold;
+    font-weight: bolder;
     margin-top: 10px;
     margin-bottom: 10px;
 }
