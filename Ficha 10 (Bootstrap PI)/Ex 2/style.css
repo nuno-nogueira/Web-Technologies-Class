@@ -1,0 +1,23 @@
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+nav{
+    display: flex;
+}
+
+#second-div{
+    justify-content: end;
+}
+
+#second-div a{
+    color: rgb(153, 145, 145);
+}
+
+#second-div a:hover{
+    color: white;
+}
+
+.image{
+    text-align: center;
+}
