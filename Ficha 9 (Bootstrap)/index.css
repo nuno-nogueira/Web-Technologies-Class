@@ -1,0 +1,67 @@
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: black;
+}
+
+.navbar-link{
+    color: white;
+}
+
+.navbar-link:hover{
+    color: grey;
+}
+
+img{
+    object-fit: cover;
+    max-width: 2000px;
+    max-height: 764px;
+}
+
+h3, p{
+    color: black;
+}
+
+.header,.subheader{
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+}
+
+.col img{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(56, 56, 56);
+    border: 2px solid grey;
+}
+
+.col{
+    background-color: rgb(56, 56, 56);
+    border: 2px solid grey;
+    max-width: 300px;
+}
+
+.col img{
+    height: 500px;
+}
+
+.col h6,p{
+    color: white;
+}
+
+.col h6{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.col button{
+    border: none;
+    background-color: rgb(51, 117, 35);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.col button:hover{
+    background-color: green;
+}
+
