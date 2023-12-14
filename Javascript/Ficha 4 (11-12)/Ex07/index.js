@@ -5,9 +5,11 @@ function readUserInput(){
     Esta função pede ao utilizador para inserir dois números e um operador para realizar o calculo mais tarde!
     Se os números e/ou o operador não forem válidos, aparecerá uma mensagem de alerta e o cálculo já não será válido!
     */
+   while (num1 == isNumber(true) && num2 == isNumber(false)){
     let num1 = prompt('Indique o primeiro número!'); //Pede para o utilizador inserir o 1º número
     if (isNaN(num1)){ //Se o 1º número não for válido!!
-        window.alert('Não inseriu um número! Tente novamente!!');}
+        window.alert('Não inseriu um número! Tente novamente!!');
+    }
     let operador = String(prompt('Indique um operador')); //Pede para o utilizador inserir o operador de cálculo
     if (operador != '+' && operador!= '-' && operador!= '*' && operador!= '/'){ //Se o operador não for válido
         window.alert('O operador que inseriu não é válido!!');}
@@ -16,6 +18,7 @@ function readUserInput(){
         window.alert('Não inseriu um número! Tente novamente!!')}
     let callFunction = calculate(num1,num2,operador); //Chamar a função "calculate" com a variavel callFunction
     let callFunction2 = main(num1,num2,operador,resultado); //Chamar a função "main" com a variavel callFunction2
+    }
 }
 
 function calculate(num1,num2,operador){
